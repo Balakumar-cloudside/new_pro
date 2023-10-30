@@ -10,7 +10,6 @@ SELECT
     industry_name_ANZSIC AS Industry_name,
     rme_size_grp AS Size_group,
     variable AS Variable,
-    value,
     unit AS Units
 FROM survey
 )
