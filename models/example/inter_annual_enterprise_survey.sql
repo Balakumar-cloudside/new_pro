@@ -1,5 +1,5 @@
 with
-{{config(materialized='view')}}
+{{config(materialized='ephemeral')}}
 
 inter_survey as (
 SELECT
