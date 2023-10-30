@@ -1,6 +1,6 @@
 WITH
 survey AS (
-SELECT * FROM `lyrical-medley-398809.airbyte_withdbt.annual_enterprise_survey01`),
+SELECT * FROM `lyrical-medley-398809.airbyte_withdbt.annual_enterprise_survey02`),
 
 ae AS ( 
 SELECT 
