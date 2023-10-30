@@ -4,7 +4,7 @@ with
 inter_survey as (
 SELECT
      {{ dbt_utils.star(from=ref('stg_annual_enterprise_survey02'), except=["id"]) }},
-     {{ dbt_utils.star(from=ref('stg_annual_enterprise_survey01'), except=["id","value"]) }}
+     {{ dbt_utils.star(from=ref('stg_annual_enterprise_survey01'), except=["id"]) }}
         
 FROM
      {{ ref('stg_annual_enterprise_survey01') }} AS t2
